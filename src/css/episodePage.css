@@ -1,0 +1,89 @@
+h2{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 21, 243);
+    color:rgb(182, 243, 155);
+}
+.h2-mas-suave{
+    background-color: rgba(43,21,243,0.75);
+    color:rgb(79, 253, 4);
+
+}
+
+.content-episodes{
+    padding-top: 20px;
+    background-color: rgb(113, 104, 238) ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardEpisode{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+    background-color: rgb(230, 223, 223);
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px;
+    border-radius: 40px;
+    box-shadow: 5px 5px ;
+    border: rgb(53, 3, 162) 2px solid;
+}
+.epi-title-card span{
+     font-size: 30px;
+    color: rgb(109, 14, 225);
+}
+
+/*css de episode.jsx*/
+
+.epi-detail-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    background-color: rgb(138, 118, 248);
+}
+.epi-detail-one p {
+    color: rgb(208, 247, 215);
+    
+}
+.epi-detail-one p span {
+    color: rgb(40, 3, 225)
+}
+
+.epi-char-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(226, 199, 251);
+
+}
+
+.cardChar-single{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 20px;
+    border: yellow 2px solid;
+    margin: 10px 10px;
+    padding: 20px 20px;
+    background-color:rgb(73, 7, 135);
+    color: azure;
+    width: 100px;
+}
+
+.imagen-chica{
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    margin: 5px;
+    border: black 3px solid;
+}
+.imagen-chica:hover{
+    border: red 3px solid;
+    cursor: pointer;
+}

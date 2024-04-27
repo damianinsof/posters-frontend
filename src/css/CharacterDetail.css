@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.fichaCharacter{
+    margin-top: 20px;
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    background-color: rgb(230, 223, 223);
+    margin: 5px 100px ;
+    padding: 4px ;
+    border-radius: 40px;
+    border: 15px rgb(106, 142, 209) solid;
+}
+
+.fichaCharacter img{
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: 5px solid blueviolet
+}
+.dataCharacter{
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+    
+}
+.dataCharacter .name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+.h2-title{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+.contentEpisode{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.cardEpisode-single {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: rgb(184, 254, 61);
+    width: 60px;
+    height: 50px;
+    margin: 10px;
+    
+}
+.cardEpisode-single:hover{
+    background-color: cadetblue;
+    font-weight: 900;
+    color: rgb(6, 6, 6);
+    border: 2px rgb(105, 255, 78) solid;
+}
+.precio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(11, 76, 195);
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(236, 239, 232);
+}
+
+
+.buttonContent{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    background-color: cadetblue;
+
+}
+
+.little {
+
+    display: flex;
+    
+    font-size: 3rem;
+    padding-left: 10px;
+    align-items: center;
+    justify-items: center;
+    width: 50px;
+    color: rgb(181, 42, 227);
+   
+}
+ .little :hover{
+    display: flex;
+    
+    color: rgb(253, 22, 22);
+    
+}
+.popover{
+    background-color: rgb(0, 200, 255);
+  
+}
+.Popover .content p {
+    margin: 0;
+  
+    background-color: rgb(96, 193, 193);
+  }

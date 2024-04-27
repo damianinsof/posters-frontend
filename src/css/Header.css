@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 500px;
+}
+.logo-header{
+    padding-top: 10px;
+    padding-left:10px;
+    width: 240px;
+    height: 100px;
+}
+.title{
+    font-weight: 900;    
+    font-size: 3.5rem;
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    -webkit-text-stroke: 2px red;
+}
+.cartBadge{
+    position: relative;
+    left: -30px;
+}

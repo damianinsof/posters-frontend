@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+* {
+  margin: 0;
+}
+h2{
+  display: flex;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.login{
+  border-radius: 20px;
+  
+  display: flex;
+  background-color: rgb(227, 226, 225);
+  padding: 40px 40px;
+  padding-top: 60px;
+
+  flex-direction: column;
+   width: max-content;
+   color: aliceblue;
+
+}
+Button{
+  margin: 10px 10px;
+}

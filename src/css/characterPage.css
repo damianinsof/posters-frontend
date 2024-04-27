@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica
+}
+.content-character{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/*    contenedor de card    */
+.contentCard{
+    padding-top: 20px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.841);
+}
+/*         card */
+.charCard{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 350px;
+    background-color: rgb(82, 81, 83);
+    margin: 10px;
+    color: rgb(242, 247, 237);
+    border-radius: 35px;
+}
+
+
+ /*  Titulo de tarjeta */
+.charTitle{
+    display: flex;
+    background-color: rgb(172, 236, 209) ;
+    align-items: center;
+    color: rgb(3, 3, 2);
+    font-family:  'Lilita One';
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+
+    font-size: 30px;
+    flex-direction: column;
+}
+.charTitle:hover{
+    color: rgba(67, 0, 235, 0.991);
+    background-color: rgb(67, 198, 246);
+}
+/* contiene elementos e imagen */
+.charContentData{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.primeraData{
+    display: flex;
+    justify-content:space-around;
+    font-size: 16px;
+    padding-left:12px;
+}
+ #idNumber{
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(49, 245, 245);
+    font-size: 1.1rem;
+}
+.cabTitle{
+    
+    font-size: 10px;
+    padding-left: 0px;
+    color: rgb(129, 162, 238);
+}
+.cabData {
+    padding-left: 10px;
+    font-size: 16px;
+    color: azure;
+
+
+}
+.cabData:hover{
+    color: red;
+}
+/* mini elemento de datos */
+#precio{
+    color: rgb(255, 238, 7);
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    margin-left: 50px;
+
+}
+.deta-id{
+    position: RELATIVE;
+    right: -10px;
+}
+.charImage{
+    max-width: 45%;
+
+    border-bottom-right-radius: 35px;
+     
+}   
+.charData p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+ 
+    
+}

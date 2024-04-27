@@ -1,0 +1,48 @@
+#content {
+    display: flex;
+    flex-direction: column;
+ background-color: beige;   
+}
+#content body{
+    padding: 7 rem;
+}
+#content table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+#content thead{
+    background-color: #535050;
+    color: aqua;
+}
+#content th,td{
+    text-align: center;
+
+    padding: 3px 16px;
+}
+
+#content tr:nth-child(even){
+    background-color: #ddd;
+    border: 2px rgb(112, 34, 247) solid;
+}
+#content td img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    border-radius: 15px;
+    border: 3px rgb(53, 158, 250) solid;
+}
+
+#content button{
+
+ margin: 4px 25px;
+
+    
+    
+}
+#content tfoot{
+    border: 3px rgb(7, 31, 240) solid;
+    background-color: rgb(131, 247, 90);
+}

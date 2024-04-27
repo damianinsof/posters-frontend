@@ -1,0 +1,61 @@
+.content-location{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(168, 87, 244);
+}
+.card-locationAll{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px ;
+    border: red 3px solid;
+    border-radius: 20px;
+    align-items: center;
+    background-color: blue;
+    color:rgb(182, 247, 191);
+
+}
+.card-locationAll:hover{
+    background-color: chocolate;
+
+}
+-h2-data{
+    padding-top: 5px;
+}
+
+/*css de episode.jsx*/
+
+.loca-detail-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    background-color: rgb(222, 193, 248);
+}
+.loca-char-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(147, 99, 193);
+
+}
+
+.cardChar-single{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 20px;
+    border: rgb(171, 236, 169) 2px solid;
+    margin: 5px 5px;
+    padding: 10px 10px;
+    background-color:rgb(15, 56, 222);
+    color: azure;
+    width: 100px;
+}
+.cardChar-single:hover{
+    background-color: rgb(116, 116, 255);
+}
