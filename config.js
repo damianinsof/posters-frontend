@@ -1,4 +1,4 @@
-const mode = "PROD"
+const mode = "PRODs"
 const URL_API = (mode =="PROD")
         ? 
          "https://posters-backend.onrender.com"

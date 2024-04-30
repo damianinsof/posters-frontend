@@ -6,8 +6,8 @@
 .fichaCharacter{
     margin-top: 20px;
     display: flex;
-    width: 75%;
-    justify-content: space-between;
+    width: 50%;
+    justify-content: center;
     background-color: rgb(230, 223, 223);
     margin: 5px 100px ;
     padding: 4px ;
@@ -22,8 +22,13 @@
     border: 5px solid blueviolet
 }
 .dataCharacter{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 30px;
   border-radius: 10px;
   font-family: 'Roboto', sans-serif;
+  
   font-size: 1rem;
     
 }
