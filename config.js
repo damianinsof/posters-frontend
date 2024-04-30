@@ -1,7 +1,7 @@
 const mode = "PRODs"
 const URL_API = (mode =="PROD")
         ? 
-         "https://posters-backend.onrender.com"
+         "https://posters-frontend-production.up.railway.app/"
          :
          "http://localhost:8080"
          
