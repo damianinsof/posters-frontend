@@ -1,4 +1,4 @@
-const mode = "PRODs"
+const mode = "PROD"
 const URL_API = (mode =="PROD")
         ? 
          "https://posters-frontend-production.up.railway.app/"
