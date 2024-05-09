@@ -12,6 +12,7 @@ import {
   Checkbox,
 } from 'antd';
 import { useGlobalContext } from '../context/GlobalContextProvider';
+import { URL_API } from '../../config';
 
 
 
@@ -65,7 +66,7 @@ console.log(e)
   const handleSubmit = async ()=>{
     // registro un nuevo usuario
     try {
-      const resp = await axios.post('http://localhost:8080/api/user/register',
+      const resp = await axios.post( URL_API+'/api/user/register',
       formulario);
 
  if (resp.data.status ===200){

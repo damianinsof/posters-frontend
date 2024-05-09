@@ -3,6 +3,7 @@ import { useGlobalContext } from '../context/GlobalContextProvider'
 import { Button, Form, Input } from 'antd';
 import {useNavigate} from 'react-router-dom'
 import '../css/Login.css'
+import { URL_API } from '../../config';
 
 
 const Login2 = () => {
@@ -13,7 +14,7 @@ const Login2 = () => {
 
     const handleSubmit = async (access)=>{
       try {
-        const response = await fetch('http://localhost:8080/api/user/login', {method: 'POST',
+        const response = await fetch(URL_API +'/api/user/login', {method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: access
         }).then(res => res.json())

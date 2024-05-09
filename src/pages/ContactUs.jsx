@@ -4,7 +4,7 @@ import '../css/contactUs.css'
 import { useGlobalContext } from '../context/GlobalContextProvider';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-
+import { URL_API } from '../../config';
 
 const ContactUs = () => {
 
@@ -16,7 +16,7 @@ const ContactUs = () => {
 
  const handleContact = async (contact)=>{
   try {
-    const resp = await axios.post('http://localhost:8080/api/user/contactus',
+    const resp = await axios.post(URL_API+'/api/user/contactus',
     contact,
    {headers: {'Authorization': token}}); 
    if (resp.status ===200){
@@ -28,7 +28,7 @@ const ContactUs = () => {
 
  const handleListContact = async (user)=>{
   try {
-    const resp = await axios.post('http://localhost:8080/api/user/contaclist',
+    const resp = await axios.post(URL_API+'/api/user/contaclist',
     user,
    {headers: {'Authorization': token}}); 
    if (resp.status ===200){
