@@ -9,6 +9,7 @@ import axios from 'axios'
 import { cartToSales } from '../services/cartServices'
 import { useNavigate } from 'react-router-dom'
 import ModalInfo from '../components/modalInfo'
+import { URL_API } from '../../config'
 
 
 
@@ -44,7 +45,7 @@ async function storeThisOrder(){
   if (cart.length ===0) {openNotificationWithIcon("info","Save Store Order","Must add at least one to store it")}
     else{
       try {
-        const resp = await axios.post('http://localhost:8080/api/user/setorder', {cart:cart,user: userNow},
+        const resp = await axios.post(URL_API+'/api/user/setorder', {cart:cart,user: userNow},
         {headers: {'Authorization': token}});
           if (resp.data.ok){openNotificationWithIcon("success", "Save Store Order",resp.data.message)}
          else{openNotificationWithIcon("error", "Sassve Store Order",resp.data.message)};
@@ -55,7 +56,7 @@ async function storeThisOrder(){
   // BOTON recuperar pedido BD
 async function getOrder(){
   try {
-    const resp = await axios.post('http://localhost:8080/api/user/getorder', {user:userNow},
+    const resp = await axios.post(URL_API+'/api/user/getorder', {user:userNow},
     {headers: {'Authorization': token}});
       if (resp.data.ok){openNotificationWithIcon("info", "Get Store Order",resp.data.message)
       console.log(resp)
@@ -72,7 +73,7 @@ async function getOrder(){
 // BOTON delete pedido guardado
 async function delOrder(){
   try {
-    const resp = await axios.post('http://localhost:8080/api/user/deleteOrder',
+    const resp = await axios.post(URL_API+'/api/user/deleteOrder',
     {user:userNow},
    {headers: {'Authorization': token}});   
    if (resp.data.ok){
